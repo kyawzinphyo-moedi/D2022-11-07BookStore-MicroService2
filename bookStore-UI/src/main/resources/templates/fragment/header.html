@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<div th:fragment="heading">
+    <style>
+        #photo{
+            background: url("https://source.unsplash.com/random/?book");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 550px;
+        }
+
+        #button{
+            background: #1c7430;
+            color: white;
+            text-decoration: none;
+        }
+
+    </style>
+    <div id="photo" class="jumbotron jumbotron-fluid text-center d-flex justify-content-center align-items-center text-white">
+        <div   class="container ">
+            <h1 class="display-3">Amazing BookStore</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa doloremque est,
+                excepturi illum molestiae nihil nisi possimus, quasi quia quisquam repudiandae sequi voluptatum? Amet
+                doloremque mollitia quia quibusdam quos!</p>
+            <a href="#" id="button" class="btn px-4 py-2 lead rounded-pill">Search Book</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

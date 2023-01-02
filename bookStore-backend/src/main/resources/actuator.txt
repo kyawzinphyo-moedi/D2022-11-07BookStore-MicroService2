@@ -1,0 +1,10 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/bookstore_micro
+spring.datasource.username=root
+spring.datasource.password=admin
+spring.jpa.hibernate.ddl-auto=update
+
+#actuator
+info.app.anme=BookStoreBackend
+info.java-vender=${java.specification.vendor}
+management.endpoint.shutdown.enabled=true
+management.endpoints.web.exposure.include=*

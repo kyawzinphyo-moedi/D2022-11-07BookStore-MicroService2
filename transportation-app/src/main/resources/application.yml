@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: transport-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/transport
+    password: admin
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka
+server:
+  port: 0
